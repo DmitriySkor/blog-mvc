@@ -1,4 +1,4 @@
-<?php require_once('inc/header.php'); ?>
+<?php require VIEWS . '/inc/header.php'; ?>
 <main class="main py-3">
     <div class="container">
         <div class="row">
@@ -21,8 +21,8 @@
                     </div>
                 <?php endforeach; ?>
             </div>
-            <?php require_once('inc/sidebar.php'); ?>
+            <?php require VIEWS . '/inc/sidebar.php'; ?>
         </div>
     </div>
 </main>
-<?php require_once('inc/footer.php'); ?>
+<?php require VIEWS . '/inc/footer.php'; ?>
